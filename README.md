@@ -4,7 +4,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 ## 🚀 Projects Included
 
-1. [☕ Cafe Menu](#-cafe-menu) – Browse and interact with a cafe menu.
+1. [☕ Cafe Menu](#-cafe-menu) – Browse a cafe menu.
 2. [🎴 Card Maker](#-card-maker) – Create custom cards with personalized text and styles.
 3. [🖌️ Draw Shapes Using Canvas](#-draw-shapes-using-canvas) – Draw different shapes interactively on a canvas.
 4. [🔄 Fetching Data API](#-fetching-data-api) – Fetch and display data from an API.
