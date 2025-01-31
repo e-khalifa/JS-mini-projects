@@ -4,12 +4,12 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 ## 🚀 Projects Included
 
-1. [☕ Cafe Menu](#-cafe-menu) – Browse a cafe menu.
-2. [🎴 Card Maker](#-card-maker) – Create custom cards with personalized text and styles.
-3. [🖌️ Draw Shapes Using Canvas](#-draw-shapes-using-canvas) – Draw different shapes interactively on a canvas.
-4. [🔄 Fetching Data API](#-fetching-data-api) – Fetch and display data from an API.
-5. [📱 jQuery Landing Page Menu](#-jquery-landing-page-menu) – A landing page with an interactive menu using jQuery.
-6. [🌐 Responsive Website](#-responsive-website) – A responsive website that adjusts to different screen sizes.
+1. [☕ Cafe Menu](#-cafe-menu)
+2. [🎴 Card Maker](#-card-maker)
+3. [🖌️ Draw Shapes Using Canvas](#-draw-shapes-using-canvas)
+4. [🔄 Fetching Data API](#-fetching-data-api)
+5. [📱 jQuery Landing Page Menu](#-jquery-landing-page-menu)
+6. [🌐 Responsive Website](#-responsive-website)
 
 ## ☕ Cafe Menu
 
