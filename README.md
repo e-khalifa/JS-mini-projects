@@ -21,8 +21,6 @@ A collection of small, interactive JavaScript projects. Each project runs in the
   <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/cafe-menu/demo/demo.gif">
 </div>
 
----
-
 ## 🎴 Card Maker
 
 **📍 Description:**  
