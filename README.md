@@ -18,7 +18,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 **📸 Demo**  
 <div>
-  <img src="link-to-your-demo.gif">
+  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/cafe-menu/demo/demo.gif">
 </div>
 
 ## 🎴 Card Maker
@@ -28,7 +28,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 **📸 Demo**  
 <div>
-  <img src="link-to-your-demo.gif">
+  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/card-maker/demo/demo.gif">
 </div>
 
 ## 🖌️ Draw Shapes Using Canvas
@@ -38,7 +38,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 **📸 Demo**  
 <div>
-  <img src="link-to-your-demo.gif">
+  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/draw-shapes/demo/demo.gif">
 </div>
 
 ## 🔄 Fetching Data API
@@ -48,7 +48,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 **📸 Demo**  
 <div>
-  <img src="link-to-your-demo.gif">
+  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/fetch-data-api/demo/demo.gif">
 </div>
 
 
@@ -59,7 +59,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 **📸 Demo**  
 <div>
-  <img src="link-to-your-demo.gif">
+  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/jQuery-dynamic-menu/demo/demo.gif">
 </div>
 
 
@@ -70,6 +70,6 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 **📸 Demo**  
 <div>
-  <img src="link-to-your-demo.gif">
+  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/responsive-web-page/demo/demo.gif">
 </div>
 
