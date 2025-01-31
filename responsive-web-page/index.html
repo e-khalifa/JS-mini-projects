@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dexter</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+
+    <style>
+        body {
+            background-color: black;
+            color: #d4d3d3;
+            font-family: "Roboto Condensed", sans-serif;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('./assets/bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            filter: blur(3px) brightness(0.4);
+            z-index: -1;
+        }
+
+        h1,
+        h5 {
+            color: #e9e7e7 !important;
+            text-shadow: 2px 2px 5px #6b1216;
+            font-weight: bold;
+        }
+
+        .card {
+            background-color: #33080b;
+            border: 2px solid #350505;
+            box-shadow: 0 0 10px rgba(54, 8, 8, 0.3);
+        }
+
+        .card-text {
+            color: grey;
+        }
+
+        hr {
+            border: 2px solid #33080b;
+            opacity: 1;
+        }
+
+        i {
+            color: grey !important;
+            font-size: 9rem;
+        }
+
+        .md-mark {
+            top: -20px;
+        }
+
+        img {
+            height: 340px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        img:not(.circle) {
+            border: 1px dotted #c4c3c3;
+            border-radius: 5px;
+
+        }
+
+        .circle {
+            border-right: 3px dotted #c4c3c3;
+            box-shadow: 40px 40px 40px #33080b;
+            width: 200px;
+            height: 170px;
+        }
+
+        video {
+            width: 100%;
+            border: 3px solid #c4c3c3;
+        }
+
+        @media (max-width: 767px) {
+            img {
+                height: 150px;
+            }
+
+            .circle {
+                width: 250px;
+                height: 230px;
+            }
+
+            .circle.smaller {
+                width: 100px;
+                height: 90px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row ps-2 ps-md-5 pb-4">
+            <!-- Bookmark - BONUS -->
+            <div class="row">
+                <i
+                    class="md-mark bi bi-bookmark-fill position-absolute translate-middle-y d-none d-md-block d-lg-none text-success"></i>
+                <i class="bi bi-bookmark-fill position-absolute translate-middle-y d-none d-lg-block text-success"></i>
+            </div>
+            <br>
+            <!-- SideBar Circles -->
+            <div class="row col-12 col-lg-2 h-auto">
+                <div class="row mt-4">
+                    <div
+                        class="row mt-0 mt-md-4 mt-lg-5 justify-content-sm-center justify-content-md-start col-12 col-md-3 col-lg-12">
+                        <img class="circle rounded-circle" src="assets/2.jpg">
+                    </div>
+                    <div
+                        class="row col-12 col-md-9 col-lg-12 mt-4 mt-lg-2 gap-4 gap-md-0 gap-lg-4 justify-content-sm-center justify-content-md-start">
+                        <img class="circle rounded-circle smaller col-4 col-lg-12" src="assets/1.jpg">
+                        <img class="circle rounded-circle smaller col-4 col-lg-12" src="assets/4.jpg">
+                        <img class="circle rounded-circle smaller col-4 col-lg-12" src="assets/3.jpg">
+                    </div>
+                </div>
+            </div>
+            <!-- Main Content -->
+            <div class="row col-12 col-lg-10 mt-1 mt-lg-5">
+                <p class="col-12 col-lg-11 fs-3 mt-lg-5 mt-2">He's smart. He's lovable. He's Dexter Morgan, America's
+                    favorite
+                    serial
+                    killer,
+                    who
+                    spends his days
+                    solving crimes and his nights committing them. </p>
+                <!-- Imgs -->
+                <div class="row col-12 col-lg-11 gap-3 gap-md-0 my-4">
+                    <img src="assets/s1.jpg" class="col-md-4">
+                    <img src="assets/s2.jpg" class="col-md-4">
+                    <img src="assets/s3.jpg" class="col-md-4">
+                </div>
+                <!-- Cards -->
+                <div class="row col-12 col-lg-11 gap-3 gap-md-0">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <i class="bi bi-person-vcard fs-1 text-center"></i>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Who is Dexter?</h5>
+                                <p class="card-text">He’s this caring dad, devoted husband (well, kind of...), and a
+                                    helpful
+                                    coworker at Miami Metro. But then, you know... he’s out there wrapping people in
+                                    plastic
+                                    and
+                                    "taking out the trash" at night.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <i class="bi bi-backpack4-fill fs-1 text-center"></i>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">What's in Dexter's bag?</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        A knife
+                                    </li>
+                                    <li>
+                                        A Drug
+                                    </li>
+                                    <li>
+                                        A trophy
+                                    </li>
+                                    <li>Annd.. his last victim in pieces</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <i class="bi bi-journal-text fs-1 text-center"></i>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Dexter's Code?</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Thou shalt not kill an innocent person.
+                                    </li>
+                                    <li>
+                                        Thou shalt not get caught
+                                    </li>
+                                    <li>Thou shalt kill only those who deserve to die.</li>
+                                    <li>Thou shalt have no emotional attachment to the victim.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Triangle + Line -->
+            <div>
+                <i class="bi bi-caret-up-fill fs-2 d-flex justify-content-center mb-0"></i>
+            </div>
+            <hr class="col-11">
+            <!-- Video -->
+            <div class="row">
+                <div class="col-1 col-lg-2 ">
+                </div>
+                <div class="container col-lg-10">
+                    <h1 class="col-12 col-md-3">DEXTER</h1>
+                    <p class="col-12 col-md-9">This hit series has won multiple awards, including a Best Actor
+                        Golden
+                        Globe for Michael C. Hall.</p>
+                    <div class="row col-12 col-lg-11 my-4">
+                        <div class="col-8 d-none d-md-inline">
+                            <video class="rounded" src="./assets/dex.mp4" controls autoplay muted></video>
+                        </div>
+                        <div class="col-12 col-md-4 d-none d-md-inline">
+                            <p>By day, mild-mannered Dexter is a blood spatter analyst for the Miami
+                                police. But at night, he is a serial killer who only targets other murderers.</p>
+                            <p>Mild-mannered forensics expert Dexter Morgan continues his double
+                                life as a Miami serial killer in this dark drama.</p>
+                            <p>Good-natured forensics specialist Dexter Morgan continues his
+                                moonlighting activities as a serial murderer in this drama series.</p>
+                        </div>
+                    </div>
+                    <!-- Imgs -->
+                    <div class="row col-12 col-lg-11 gap-3 gap-md-0">
+                        <img src="assets/s4.jpg" class="col-md-4">
+                        <p class="d-block d-md-none">By day, mild-mannered Dexter is a blood spatter analyst for the
+                            Miami
+                            police. But at night, he is a serial killer who only targets other murderers.</p>
+                        <img src="assets/s5.jpg" class="col-md-4">
+                        <p class="d-block d-md-none">Mild-mannered forensics expert Dexter Morgan continues his
+                            double
+                            life as a Miami serial killer in this dark drama.</p>
+                        <img src="assets/s6.jpg" class="col-md-4">
+                        <p class="d-block d-md-none">Good-natured forensics specialist Dexter Morgan continues his
+                            moonlighting activities as a serial murderer in this drama series.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

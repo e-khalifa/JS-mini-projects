@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC- RWD - Task#2- Coffie Shop</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c5/Roasted_coffee_beans.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: -1;
+        }
+
+        .menu {
+            margin: auto;
+            background-color: rgb(222, 184, 135);
+            border-radius: 5px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            margin-bottom: -2px;
+        }
+
+        hr {
+            background-color: brown;
+            border-color: brown;
+            height: 3px;
+            width: 90%;
+        }
+
+        .dish {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: -10px;
+        }
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <h1>Camper Cafe</h1>
+        <p><i>Est. 2020</i></p>
+        <hr>
+        <h1>Coffee</h1>
+        <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg">
+        <div class="dish">
+            <p>French Vanilla</p>
+            <p>3.00</p>
+        </div>
+        <div class="dish">
+            <p>Caramel Macchiato</p>
+            <p>3.75</p>
+        </div>
+        <div class="dish">
+            <p>Pumpkin Spice</p>
+            <p>3.50</p>
+        </div>
+        <div class="dish">
+            <p>Hazelnut</p>
+            <p>4.00</p>
+        </div>
+        <div class="dish">
+            <p>Mocha</p>
+            <p>4.50</p>
+        </div>
+
+        <h1>Desserts</h1>
+        <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg">
+        <div class="dish">
+            <p>Donut</p>
+            <p>1.50</p>
+        </div>
+        <div class="dish">
+            <p>Cherry Pie</p>
+            <p>2.75</p>
+        </div>
+        <div class="dish">
+            <p>Cheesecake</p>
+            <p>3.00</p>
+        </div>
+        <div class="dish">
+            <p>Cinnamon Roll</p>
+            <p>2.50</p>
+        </div>
+
+        <hr>
+        <a href="https://www.freecodecamp.org/">Visit our website</a>
+        <p>123 Free Code Camp Drive</p>
+    </div>
+
+</body>
+
+</html>

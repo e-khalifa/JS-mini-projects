@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw Shapes</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <h1>Draw Your Favorite Shape!</h1>
+    <canvas id="canvas" width="500" height="420"></canvas>
+    <form action="" id="shapeForm">
+        <label for="shape">Select Shape:</label>
+        <select id="shape">
+            <option value="rect">Rectangle</option>
+            <option value="sqr">Square</option>
+            <option value="circ">Circle</option>
+            <option value="tri">Triangle</option>
+        </select>
+
+        <fieldset>
+            <legend>Draw Shape</legend>
+            <input type="number" id="width" min="0" placeholder="Width" required="true">
+            <input type="number" id="height" min="0" placeholder="Height" required="true">
+            <input type="number" id="radius" min="0" disabled="true" placeholder="Radius">
+
+            <div id="colors">
+                <label for="red">Red:</label>
+                <input type="range" min="0" id="red" max="255" value="0" />
+
+                <label for="green">Green:</label>
+                <input type="range" min="0" id="green" max="255" value="0" />
+                <label for="blue">Blue:</label>
+                <input type="range" min="0" id="blue" max="255" value="0" />
+            </div>
+            <br>
+            <button type="submit" id="submitBtn">Draw Shape</button>
+        </fieldset>
+    </form>
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>
