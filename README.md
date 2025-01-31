@@ -14,7 +14,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 ## ☕ Cafe Menu
 
 **📍 Description:**  
-- A simple interactive cafe menu where you can browse items and add them to a cart.
+- A simple cafe menu.
 
 **📸 Demo**  
 <div>
@@ -24,7 +24,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 ## 🎴 Card Maker
 
 **📍 Description:**  
-- A tool to generate custom cards. Users can add personalized text and choose from various styles to create their perfect card.
+- A tool to generate custom cards, users can add personalized text and choose from various styles to create their perfect card.
 
 **📸 Demo**  
 <div>
@@ -34,7 +34,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 ## 🖌️ Draw Shapes Using Canvas
 
 **📍 Description:**  
-- Draw different shapes on a canvas. Choose a shape, adjust its size, and change colors interactively.
+- Draw different shapes on a canvas: Choose a shape, adjust its size, and change colors interactively.
 
 **📸 Demo**  
 <div>
@@ -44,7 +44,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 ## 🔄 Fetching Data API
 
 **📍 Description:**  
-- Fetch data from an external API and display it dynamically on the page. Learn how to work with promises and async/await for data retrieval.
+- Fetch data from an external API and display it dynamically on the page.
 
 **📸 Demo**  
 <div>
@@ -66,7 +66,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 ## 🌐 Responsive Website
 
 **📍 Description:**  
-- A responsive website that adjusts its layout based on the screen size. Demonstrates the power of media queries and flexible design principles.
+- A responsive website that adjusts its layout based on the screen size.
 
 **📸 Demo**  
 <div>
