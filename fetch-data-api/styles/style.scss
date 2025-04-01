@@ -1,0 +1,76 @@
+@import "./colors";
+
+body {
+    text-align: center;
+}
+
+h1 {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 5px;
+    color: rgb(248, 95, 95);
+}
+
+#errorMsg {
+    color: red;
+    text-align: center;
+}
+
+.tDiv {
+    padding: 10px;
+    display: inline;
+}
+
+table {
+    background-color: $background1;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    th {
+        background-color: $background2;
+        color: $grey1;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: medium;
+    }
+
+    td {
+        font-size: smaller;
+        color: $grey2;
+    }
+
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 12px 15px;
+        text-align: center;
+
+    }
+
+    tr:nth-child(even) {
+        background-color: $background3;
+    }
+
+    tr:hover {
+        background-color: $background4;
+        cursor: pointer;
+    }
+}
+
+#userNameHeading {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.label {
+    font-weight: bold;
+    font-size: medium;
+    background-color: $background4;
+}
+
+.val {
+    background-color: $background3;
+}

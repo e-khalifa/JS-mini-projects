@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Background Color Changer</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 20px;
+            color: white;
+            background-color: black;
+        }
+
+        #my-btn {
+            padding: 15px;
+            background-color: rgb(149, 199, 149);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Random Background Color Changer</h1>
+    <h3 id="my-color"></h3>
+    <button id="my-btn">Change Background Color</button>
+    <script>
+        let darkColorsArr = [
+            "#2C3E50",
+            "#34495E",
+            "#2C2C2C",
+            "#616A6B",
+            "#4A235A",
+            "#2F4F4F",
+            "#0E4B5A",
+            "#36454F",
+            "#2C3E50",
+            "#800020",
+        ];
+        function getRandomIndex() {
+            let randomIndex = Math.floor(darkColorsArr.length * Math.random());
+            return darkColorsArr[randomIndex];
+        }
+        let myBtn = document.getElementById("my-btn");
+        let myColor = document.getElementById("my-color");
+        myBtn.addEventListener("click", function () {
+            myColor.innerHTML = "Hex Color: " + getRandomIndex();
+            document.querySelector("body").style.backgroundColor = getRandomIndex();
+
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(255, 231, 92), pink);
+    height: 100vh;
+    margin: 0;
+}
+
+h1,
+h2 {
+    color: rgb(13, 167, 90);
+}
+
+button {
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+}
+
+
+img {
+    height: 180px;
+    width: 150px;
+}

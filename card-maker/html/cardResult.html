@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardResult</title>
+    <script src="../scripts/cookieLib.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        img {
+            height: 200px;
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        window.onload = function () {
+            let img = document.createElement("img");
+            imgNum = getCookie("chosenCard");
+            img.src = `../imgs/${imgNum}.jpg`;
+            document.body.prepend(img);
+            document.getElementById("para").innerText = getCookie("msg");
+            let winBtn = document.getElementById("winBtn");
+            winBtn.addEventListener("click", function () {
+                window.close();
+            })
+        }
+    </script>
+    <br>
+    <p id="para"></p>
+    <button id="winBtn">Close Preview</button>
+</body>
+
+</html>

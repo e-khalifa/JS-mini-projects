@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    height: 100vh;
+}
+
+
+.btnsContainer button {
+    background: linear-gradient(to bottom, #8a22dd, #be3495);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: x-large;
+    margin-left: 5px;
+    border: none;
+    box-shadow: 0px 4px 5px rgba(105, 25, 38, 0.692);
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.btnsContainer {
+    margin-bottom: 100px;
+}
+
+/* =====================About============================= */
+#aboutWin {
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 4px 5px rgb(196, 167, 172);
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: large;
+    display: none;
+}
+
+/* =====================Gallery============================= */
+#galleryWin {
+    display: none;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 60px;
+}
+
+#myImg {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 40px;
+}
+
+/* =====================Services============================= */
+#serviceWin {
+    position: fixed;
+    top: 8.4%;
+    left: 49%;
+    display: none;
+}
+
+#item1,
+#item2,
+#item3 {
+    height: 20px;
+    width: 80px;
+    background: linear-gradient(to bottom, #8a22dd, #be3495);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    display: none;
+}
+
+/* =====================Complain============================= */
+#formWin {
+    padding-top: 20px;
+    text-align: center;
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 2px 3px 2px rgb(196, 167, 172);
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: large;
+    display: none;
+}
+
+#resultWin {
+    padding-top: 20px;
+    text-align: center;
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 2px 3px 2px rgb(196, 167, 172);
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: large;
+    display: none;
+}
