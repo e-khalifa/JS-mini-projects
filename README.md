@@ -29,8 +29,9 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 **📸 Demo**  
 <div>
-  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/fetch-data-api/demo/demo.gif">
+  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/pwa-to-do-list/demo/demo.gif">
 </div>
+
 
 ## 🔄 Fetching Data API
 
@@ -42,6 +43,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
   <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/fetch-data-api/demo/demo.gif">
 </div>
 
+
 ## 🎨 Background Color Changer
 
 **📍 Description:**  
@@ -51,6 +53,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 <div>
   <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/bg_changer/demo.gif">
 </div>
+
 
 ## 🌀 Animated Fan
 
@@ -62,6 +65,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
   <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/animated-fan/demo.gif">
 </div>
 
+
 ## 🔘 Circle Switch
 
 **📍 Description:**  
@@ -69,17 +73,21 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 **📸 Demo**  
 <div>
-  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/fetch-data-api/demo/demo.gif">
+  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/circle-switch/demo.gif">
 </div>
+
 
 ## 👾 Pac-Man (CSS Only)
 
 **📍 Description:**  
 - A Pac-Man animation created entirely with CSS, showcasing keyframe animations and transformations.
+
 **📸 Demo**  
 <div>
-  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/fetch-data-api/demo/demo.gif">
+  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/pac-man/demo.gif">
 </div>
+
+
 ## 🖌️ Draw Shapes Using Canvas
 
 **📍 Description:**  
@@ -89,7 +97,6 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 <div>
   <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/draw-shapes/demo/demo.gif">
 </div>
-
 
 
 ## 🎴 Card Maker
@@ -110,8 +117,10 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 **📸 Demo**  
 <div>
-  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/fetch-data-api/demo/demo.gif">
+  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/survey_form/Screenshot.jpeg">
 </div>
+
+
 ## 🏆 Tribute Page (HTML Page)
 
 **📍 Description:**  
@@ -119,8 +128,10 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 
 **📸 Demo**  
 <div>
-  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/fetch-data-api/demo/demo.gif">
+  <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/tribute/assets/Screenshot.jpeg">
 </div>
+
+
 ## 📱 jQuery Landing Page Menu (HTML Page)
 
 **📍 Description:**  
@@ -130,7 +141,6 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 <div>
   <img src="https://github.com/e-khalifa/JS-mini-projects/blob/main/jQuery-dynamic-menu/demo/demo.gif">
 </div>
-
 
 
 ## ☕ Cafe Menu (HTML Page)
