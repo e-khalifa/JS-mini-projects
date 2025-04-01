@@ -9,7 +9,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 2. [🔄 Fetching Data API](#-fetching-data-api)
 
 ### 🎨 UI & Animations
-3. [🎨 Background Color Changer](#-background-color-changer)
+3. [🎨 Random Background Color Changer](#-random-background-color-changer)
 4. [🌀 Animated Fan](#-animated-fan)
 5. [🔘 Circle Switch](#-circle-switch)
 6. [👾 Pac-Man (CSS Only)](#-pac-man-css-only)
@@ -44,7 +44,7 @@ A collection of small, interactive JavaScript projects. Each project runs in the
 </div>
 
 
-## 🎨 Background Color Changer
+## 🎨 Random Background Color Changer
 
 **📍 Description:**  
 - A simple tool to change the background color dynamically at the click of a button.
